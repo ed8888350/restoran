@@ -1,0 +1,234 @@
+@import "../fonts/Poppins/stylesheet";
+@import "../fonts/Raleway/stylesheet";
+
+:root {
+    --accent:#FF8A00;
+    --green: #3FA72F;
+    --black: #311F09;
+    --font-base: 'Poppins', sans-serif;
+    --font-accent: 'Raleway', sans-serif;
+}
+
+.header {
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 1270px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-round {
+    width: 51px;
+    height: 51px;
+    background-color: var(--accent);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: var(--font-base);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.logo-text {
+    font-family: var(--font-accent);
+    font-style: 14px;
+    font-weight: 600;
+}
+
+.span-right {
+    color: var(--accent);
+}
+
+.span-left {
+    color: var(--black);
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    font-family: var(--font-base);
+    font-style: 14px;
+    font-weight: 400;
+}
+
+.header-nav a {
+   color: var(--black);
+   transition: color .3s ease-in-out; 
+}
+
+.header-nav a:hover {
+    color: var(--accent);
+}
+
+.header-nav a.checked {
+    color: var(--accent);
+}
+
+.about-cart {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.cart {
+    position: relative;
+}
+
+.cart-round {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #FF3838;
+    color: #fff;
+    font-family: var(--font-base);
+    font-size: 8px;
+    font-weight: 300;
+}
+
+.btn-header {
+    width: 112px;
+    height: 50px;
+    padding: 13px 34px;
+    border: none;
+    border-radius: 134px;
+    background-color: var(--green);
+    color: #fff;
+    font-family: var(--font-base);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-header:hover {
+    background-color: #fff;
+    color: var(--green);
+    border: 3px solid #3FA72F;
+}
+
+main {
+    margin-top: 128px;
+}
+
+.main-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-restauran {
+    padding: 10px 30px;
+    margin-bottom: 22px;
+    border-radius: 126px;
+    background-color: #ffe6c9;
+    color: var(--accent);
+    font-family: var(--font-accent);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.btn-restauran:hover {
+    background-color: var(--accent);
+    color: #fff;
+}
+
+.main-title {
+    margin-bottom: 30px;
+    font-family: var(--font-accent);
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.main-text {
+    width: 550px;
+    margin-bottom: 75px;
+    font-family: var(--font-base);
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 200%;
+    color: #5C4529;
+}
+
+.btn-order {
+    padding: 17px 62px;
+    margin-right: 23px;
+    border: none;
+    border-radius: 162px;
+    border: 3px solid #FF8A00;
+    background-color: var(--accent);
+    color: #fff;
+    font-family: var(--font-base);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-order:hover {
+    background-color: #fff;
+    color: var(--accent);
+    border: 3px solid #FF8A00;
+}
+
+.btn-reservation {
+    padding: 16px 55px;
+    border: none;
+    border-radius: 162px;
+    border: 3px solid #3FA72F;
+    background-color: var(--green);
+    color: #fff;
+    font-family: var(--font-base);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-reservation:hover {
+    background-color: #fff;
+    color: var(--green);
+    border: 3px solid #3FA72F;
+}
+
+.img-plate {
+    position: absolute;
+    left: 50%;
+    z-index: 100;
+}
+
+.img-leaf {
+    position: absolute;
+    top: -70px;
+    left: 650px;
+}
+
+.img-leaf-bottom {
+    position: absolute;
+    top: 350px;
+    left: 950px;
+}
+
+
+
+
+
+
